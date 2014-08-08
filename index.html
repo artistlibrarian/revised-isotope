@@ -87,6 +87,12 @@ var $container = $('.isotope').isotope({
   itemSelector: '.item',
   layoutMode: 'masonry',
 });
+
+// initialize Isotope after all images have loaded
+var $container = $('#container').imagesLoaded( function() {
+  $container.isotope({
+    // options
+  });
 </script>
 </body>
 </html>
