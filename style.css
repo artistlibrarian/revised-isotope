@@ -1,0 +1,49 @@
+html {
+	background-color: #CCCCB2;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+	font-family: font-family: 'Merriweather', serif;
+	color: #333333;
+	padding: 60px;
+	margin: 40px auto;
+}
+a:link {
+	color: #7A7A52;
+	text-decoration: none;
+}
+
+p {
+	font-family:'Merriweather', serif;
+}
+
+.item {
+    width: 200px;
+    display:block;
+    position:relative;
+    margin: 10px;
+}
+
+.text {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    display:none;
+    padding: 20px;
+    font-size: 90%;
+}
+
+.item:hover .text {
+    display:block;
+}
+
+
+
