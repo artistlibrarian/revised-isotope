@@ -82,17 +82,17 @@
 </div>
 
 <script>
-var $container = $('.isotope').isotope({
-  // main isotope options
-  itemSelector: '.item',
-  layoutMode: 'masonry',
-});
-
 // initialize Isotope after all images have loaded
 var $container = $('#container').imagesLoaded( function() {
   $container.isotope({
     // options
   });
+  
+var $container = $('.isotope').isotope({
+  // main isotope options
+  itemSelector: '.item',
+  layoutMode: 'masonry',
+});
 </script>
 </body>
 </html>
