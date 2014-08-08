@@ -7,7 +7,7 @@ img {
 }
 
 body {
-	font-family: font-family: 'Merriweather', serif;
+	font-family:'Merriweather', serif;
 	color: #333333;
 	padding: 60px;
 	margin: 40px auto;
@@ -17,15 +17,16 @@ a:link {
 	text-decoration: none;
 }
 
-p {
-	font-family:'Merriweather', serif;
+a:visited {
+    color: #7A7A52;
+    text-decoration: none;
 }
 
 .item {
     width: 200px;
     display:block;
     position:relative;
-    margin: 10px;
+    margin: 8px;
 }
 
 .text {
@@ -34,15 +35,17 @@ p {
     left:0;
     right:0;
     bottom:0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.5);
     color: #fff;
     display:none;
     padding: 20px;
-    font-size: 90%;
+    font-size: 80%;
 }
 
 .item:hover .text {
     display:block;
 }
 
-
+.item h2 {
+    font-size: 125%;
+}
